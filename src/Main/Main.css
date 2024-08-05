@@ -1,0 +1,134 @@
+/* Main.css */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+    font-family: 'Poppins', sans-serif;
+  }
+  /* Main.css */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_in {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main_text, .main_image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text h1 {
+    width: 80%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: 100;
+}
+
+.main_text button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main_image img {
+    width: 400px;
+    height: 500px; 
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+  
+  .main_in {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .main_card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main_card_left, .main_card_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main_card_left img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .main_card_left img:hover {
+    transform: scale(1.05);
+  }
+  
+  .main_card_right h1 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .main_card_right button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .main_card_right button:hover {
+    background-color: #0056b3;
+  }
+  

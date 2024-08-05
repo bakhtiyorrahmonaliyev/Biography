@@ -1,0 +1,141 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.navbar {
+    width: 100%;
+    background-color: #2e2c70;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--navbar-bg);
+    transition: background-color 0.3s;
+}
+
+.navbar_in {
+    max-width: 1200px;
+    height: 100px; /* Height increased */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar_left h1 {
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.navbar_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px; /* Increased gap */
+}
+
+.navbar_right .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar_right .links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_right .links ul li {
+    list-style: none;
+}
+
+.navbar_right .links ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: color 0.3s;
+    color: var(--text-color);
+}
+
+.navbar_right .links ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.navbar_right .btn_resume button {
+    background-color: #ffd700; /* Gold background */
+    color: #2e2c70;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar_right .btn_resume button:hover {
+    background-color: #e0b400; /* Darker gold on hover */
+}
+
+.navbar_right .btn_mode {
+    margin-left: 20px;
+}
+
+.navbar_right .btn_mode .mode {
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+}
+.mode.active .mode_in {
+    left: 23px;
+    background-color: white;
+}
+
+.navbar_right .btn_mode .mode .mode_in {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    transition: transform 0.3s;
+    transition: left 0.3s, background-color 0.3s;
+}
+
+.navbar_right .btn_mode.active .mode .mode_in {
+    transform: translateX(25px);
+}
+
+.navbar_right .btn_mode:hover .mode {
+    background-color: #f0f0f0;
+}
+
+.dark-mode {
+    --navbar-bg: #2e2c70;
+    --text-color: white;
+    background-color: #121212;
+    color: white;
+}
+
+.mode.active {
+    background-color: #333;
+}
+.btn_mode h1{
+    font-size: 25px;
+    cursor: pointer;
+}

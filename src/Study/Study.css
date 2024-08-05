@@ -1,0 +1,92 @@
+/* Study.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.study {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f4f4f9;
+    margin-top: 100px;
+}
+
+.study_in {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.study-title {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    color: #2e2c70;
+}
+
+.study-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.study-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.study-content h3 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2c70;
+}
+
+.study-content p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    margin: 5px 0 15px;
+}
+
+.study-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.study-content ul li {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skills-section {
+    margin-top: 40px;
+}
+
+.skills-section h2 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2c70;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skills-list li {
+    background-color: #2e2c70;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
